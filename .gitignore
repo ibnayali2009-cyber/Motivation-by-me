@@ -1,0 +1,46 @@
+# Ignore Flutter build artifacts
+/build
+*.apk
+*.ipa
+*.aab
+
+# Ignore Flutter dependencies
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Ignore OS-specific files
+Thumbs.db
+.directory
+
+# Android
+/android/app/debug
+/android/app/release
+/android/app/.gradle
+/android/.gradle
+/android/local.properties
+
+# iOS
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Flutter.xcframework
+/ios/Flutter/flutter_export_environment.sh
+/ios/Pods/
+/ios/Flutter/GeneratedPluginRegistrant.*
+/ios/.symlinks/
+/ios/Flutter/ephemeral/
+
+# Misc
+.env
+.env.local
